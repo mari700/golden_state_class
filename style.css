@@ -21,8 +21,9 @@
     flex-direction: column;
   }
   .image {
-    background-size: 100%;
-    background-position: center;
+    background-image: url('https://i.imgur.com/CeQUbYq.jpg');
+    background-size: cover;
+    height: 200px;
   }
   main .row {
     display: flex;
