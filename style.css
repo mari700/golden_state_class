@@ -12,9 +12,8 @@
   }
   ul {
     list-style-type: none;
-  }  
+  }
   main {
-    font-size: 0;
     width: 60%;
     margin: auto;
     display: flex;
@@ -30,26 +29,20 @@
   }
   main .row div {
     flex: 1;
-    height: 300px;
   }
-  .yellow {
-    background: yellow;
-  }
-  .red {
-    background: red;
-  }
-  .green {
-    background: green;
+  main .columns div {
+    padding: 10px;
   }
   footer {
     height: 50px;
-    background: purple;
     position: fixed;
     width: 100%;
     bottom: 0;
     box-sizing: border-box;
+    padding: 10px;
+    color: purple;
+    text-align: right;
   }
-  
   @media only screen and (max-width: 900px) { 
     main {
       width: 80%;
